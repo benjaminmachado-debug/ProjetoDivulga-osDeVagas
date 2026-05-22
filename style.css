@@ -1,0 +1,117 @@
+/* style.css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+/* HEADER */
+
+header{
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+    margin-top: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* BANNER */
+
+.banner{
+    text-align: center;
+    padding: 60px;
+    background-color: #0055aa;
+    color: white;
+}
+
+.botao{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #0055aa;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* SOBRE */
+
+.sobre{
+    padding: 40px;
+    text-align: center;
+}
+
+/* LOGIN E CADASTRO */
+
+.container{
+    width: 350px;
+    background-color: white;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.container h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button{
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* VAGAS */
+
+.vagas{
+    padding: 30px;
+}
+
+.vaga{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.vaga h3{
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}

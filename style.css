@@ -4,11 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: italic;
 }
 
 body{
-    background-color: #f4f4f4;
+    background-color: rgb(10, 10, 10);
 }
 
 /* HEADER */
@@ -34,8 +34,8 @@ nav a{
 
 .banner{
     text-align: center;
-    padding: 60px;
-    background-color: #0055aa;
+    padding: 80px;
+    background-color: rgb(17, 17, 17);
     color: white;
 }
 
@@ -51,10 +51,29 @@ nav a{
 
 /* SOBRE */
 
-.sobre{
-    padding: 40px;
+.sobrereal{
+    padding: 65px;
     text-align: center;
+    color: white;
+
 }
+
+.navzudo{ 
+
+    padding: 35px;
+
+
+
+}
+
+#fotid{
+    background-color: rgb(10, 10, 10);
+    color: white;
+    text-align: center;
+    padding: -0px;
+    margin-top: 0px;
+}
+
 
 /* LOGIN E CADASTRO */
 
@@ -109,9 +128,24 @@ button{
 /* FOOTER */
 
 footer{
-    background-color: #003366;
+    background-color: (43, 43, 43);
     color: white;
     text-align: center;
-    padding: 15px;
-    margin-top: 40px;
+    padding: 0px;
+    margin-top: 25px;
+}
+
+.botao{ 
+
+    color: rgb(253, 253, 253);
+    background-color: #1a1a1a;
+
+}
+
+
+.cabecalho{
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
